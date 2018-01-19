@@ -4,12 +4,15 @@ Conversion rates between currencies and rate conversion!
 
 <h1> Start </h1>
 Register for your <a href='https://openexchangerates.org/signup/free'>openexchangerates</a>.
-install the package
+
+- install the package
+
 ```
 npm install currency-converter
 ```
-require the module. 
+- require the module. 
 NOTE: Default fetchInterval value is set to one hour.
+
 ```
 var cc = require('currency-converter')({ CLIENTKEY: YOUR_OPEN_EXCHANGE_RATES_KEY, [fetchInterval: 3600000] });
 ```
